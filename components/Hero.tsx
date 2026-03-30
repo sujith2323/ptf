@@ -17,7 +17,7 @@ export default function Hero() {
           <div className="relative inline-block">
             <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-violet-500 shadow-xl">
               <Image
-                src="/profile.png"
+                src="/ptf/profile.png"
                 alt="Sujith G"
                 width={160}
                 height={160}
