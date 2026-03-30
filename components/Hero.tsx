@@ -61,26 +61,6 @@ export default function Hero() {
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="flex flex-wrap justify-center gap-4"
-        >
-          <a
-            href="/projects"
-            className="px-8 py-3 bg-violet-600 text-white rounded-full font-semibold hover:bg-violet-700 transition-colors shadow-lg hover:shadow-violet-500/25"
-          >
-            View Projects
-          </a>
-          <a
-            href="/contact"
-            className="px-8 py-3 border-2 border-violet-600 text-violet-600 dark:text-violet-400 dark:border-violet-400 rounded-full font-semibold hover:bg-violet-50 dark:hover:bg-violet-950 transition-colors"
-          >
-            Contact Me
-          </a>
-        </motion.div>
-
-        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.8 }}

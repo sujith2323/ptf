@@ -62,7 +62,7 @@ export default function ResumePage() {
           className="text-center mb-8"
         >
           <a
-            href="/resume.pdf"
+            href="/ptf/resume.pdf"
             download
             className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 text-white rounded-full font-semibold hover:bg-violet-700 transition-colors shadow-lg hover:shadow-violet-500/25"
           >
